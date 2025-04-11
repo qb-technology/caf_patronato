@@ -1,0 +1,49 @@
+{
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "editor.quickSuggestions": {
+        "strings": "on"
+    },
+    "tailwindCSS.classAttributes": [
+        "class",
+        "ui"
+    ],
+    "tailwindCSS.experimental.classRegex": [
+        [
+            "ui:\\s*{([^)]*)\\s*}",
+            "(?:'|\"|`)([^']*)(?:'|\"|`)"
+        ]
+    ],
+    // Disable the default formatter, use eslint instead
+    "prettier.enable": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "cSpell.words": [
+        "bazari",
+        "Hetzner",
+        "hugeicons",
+        "linebreak",
+        "logto",
+        "lucide",
+        "octicon",
+        "persistedstate",
+        "pinia",
+        "qbtech",
+        "qbtechnology",
+        "reka",
+        "Slideover",
+        "Stylesheet",
+        "Supabase",
+        "tailwindcss",
+        "vueuse"
+    ],
+    "postman.settings.dotenv-detection-notification-visibility": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

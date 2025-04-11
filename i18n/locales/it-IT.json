@@ -1,0 +1,11 @@
+{
+  "email": "e-mail",
+  "first_name": "nome",
+  "home": "casa",
+  "last_name": "cognome",
+  "login": "login",
+  "login_desc": "bentornato",
+  "password": "password",
+  "register": "registro",
+  "registration_desc": "Sono lieto di unirmi a voi."
+}

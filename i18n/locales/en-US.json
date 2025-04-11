@@ -1,0 +1,11 @@
+{
+  "email": "e-mail",
+  "first_name": "first name",
+  "home": "home",
+  "last_name": "last name",
+  "login": "login",
+  "login_desc": "welcome back",
+  "password": "password",
+  "register": "register",
+  "registration_desc": "glad to join have you join us."
+}

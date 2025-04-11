@@ -23,6 +23,7 @@
     "@unhead/vue": "^2.0.0-rc.8",
     "@vueuse/nuxt": "13.1.0",
     "nuxt": "^3.16.2",
+    "nuxt-translation-manager": "1.1.1",
     "pinia": "^3.0.2",
     "pinia-plugin-persistedstate": "^4.2.0",
     "tailwind-variants": "^1.0.0",
