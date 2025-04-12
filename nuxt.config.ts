@@ -60,7 +60,25 @@ export default defineNuxtConfig({
       optimizeTranslationDirective: false,
     },
   },
+
   'translation-manager': {
     langDir: '../i18n/locales',
+  },
+
+  sourcemap: {
+    server: true,
+    client: true,
+  },
+  debug: {
+    templates: true,
+    modules: true,
+    watchers: true,
+    hooks: {
+      client: true,
+      server: true,
+    },
+    nitro: true,
+    router: true,
+    hydration: true,
   },
 });

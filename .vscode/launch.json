@@ -7,7 +7,7 @@
       "type": "chrome",
       "request": "launch",
       "name": "client: chrome",
-      "url": "http://192.168.120.128:3000",
+      "url": "http://localhost:3000",
       "webRoot": "${workspaceFolder}"
     },
     {
@@ -17,7 +17,8 @@
       "outputCapture": "std",
       "program": "${workspaceFolder}/node_modules/nuxt/bin/nuxt.mjs",
       "args": [
-        "dev"
+        "dev",
+        "--host"
       ],
     }
   ],
