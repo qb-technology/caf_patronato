@@ -23,6 +23,10 @@ export default defineNuxtConfig({
 
   compatibilityDate: '2024-11-27',
 
+  icon: {
+    customCollections: [{ prefix: 'qb', dir: './app/assets/icons' }],
+  },
+
   hub: {
     // database: true,
     // blob: true

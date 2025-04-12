@@ -58,6 +58,13 @@
             orientation="vertical"
             :collapsed="isCollapse"
           />
+
+          <template #footer>
+            <DashboardUser
+              :name="isCollapse ? undefined : `Andrews Boateng Okyere`"
+              :description="isCollapse ? undefined : `General Manager`"
+            />
+          </template>
         </DashboardSidebar>
       </template>
 
