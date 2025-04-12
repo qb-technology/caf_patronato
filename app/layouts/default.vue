@@ -1,16 +1,16 @@
 <script setup lang="ts">
   const links = [
     {
-      label: 'Home',
-      icon: 'i-lucide-house',
-      active: true,
+      label: 'Dashboard',
+      icon: 'i-lucide-layout-dashboard',
+      to: '/',
     },
     {
       label: 'Inbox',
       icon: 'i-lucide-inbox',
     },
     {
-      label: 'Contacts',
+      label: 'Customers',
       icon: 'i-lucide-users',
     },
   ];
@@ -63,6 +63,7 @@
             <DashboardUser
               :name="isCollapse ? undefined : `Andrews Boateng Okyere`"
               :description="isCollapse ? undefined : `General Manager`"
+              :avatar="{ src: 'https://i.pravatar.cc/150?u=qb_tech' }"
             />
           </template>
         </DashboardSidebar>

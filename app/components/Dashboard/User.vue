@@ -141,6 +141,12 @@
       to: Boolean(props.to),
     }),
   );
+
+  const _chip = computed(() => {
+    const _ = { inset: true } as ChipProps;
+    if (typeof props.chip === 'boolean') return { ..._, show: false };
+    return { ..._, ...props.chip };
+  });
 </script>
 
 <template>
@@ -149,7 +155,9 @@
     :as-child="asChild"
     :class="_ui.root({ class: [props.class, ui.root] })"
   >
-    <UAvatar v-bind="avatar" :class="_ui.avatar({ class: ui.avatar })" />
+    <UChip v-bind="_chip">
+      <UAvatar v-bind="avatar" :class="_ui.avatar({ class: ui.avatar })" />
+    </UChip>
     <div :class="[_ui.wrapper({ class: ui.wrapper })]">
       <ULink v-if="props.to" :to="to">
         <span class="absolute inset-0" aria-hidden="true" />
