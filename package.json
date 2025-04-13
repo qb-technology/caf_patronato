@@ -10,7 +10,8 @@
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "db:generate": "drizzle-kit generate"
+    "db:generate": "drizzle-kit generate",
+    "studio": "drizzle-kit studio"
   },
   "dependencies": {
     "@iconify-json/lucide": "^1.2.35",
