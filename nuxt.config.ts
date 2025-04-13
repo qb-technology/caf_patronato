@@ -28,8 +28,8 @@ export default defineNuxtConfig({
   },
 
   hub: {
-    // database: true,
-    // blob: true
+    database: true,
+    blob: true,
   },
   i18n: {
     baseUrl: 'http://localhost:3000',
@@ -69,20 +69,20 @@ export default defineNuxtConfig({
     langDir: '../i18n/locales',
   },
 
-  sourcemap: {
-    server: true,
-    client: true,
-  },
-  debug: {
-    templates: true,
-    modules: true,
-    watchers: true,
-    hooks: {
-      client: true,
-      server: true,
-    },
-    nitro: true,
-    router: true,
-    hydration: true,
-  },
+  // sourcemap: {
+  //   server: true,
+  //   client: true,
+  // },
+  // debug: {
+  //   templates: true,
+  //   modules: true,
+  //   watchers: true,
+  //   hooks: {
+  //     client: true,
+  //     server: true,
+  //   },
+  //   nitro: true,
+  //   router: true,
+  //   hydration: true,
+  // },
 });
