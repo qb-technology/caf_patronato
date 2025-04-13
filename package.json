@@ -9,7 +9,8 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "lint:fix": "eslint --fix .",
+    "db:generate": "drizzle-kit generate"
   },
   "dependencies": {
     "@iconify-json/lucide": "^1.2.35",
@@ -22,6 +23,8 @@
     "@pinia/nuxt": "0.11.0",
     "@unhead/vue": "^2.0.0-rc.8",
     "@vueuse/nuxt": "13.1.0",
+    "drizzle-orm": "^0.41.0",
+    "nanoid": "^5.1.5",
     "nuxt": "^3.16.2",
     "nuxt-translation-manager": "1.1.1",
     "pinia": "^3.0.2",
@@ -31,6 +34,7 @@
   },
   "devDependencies": {
     "@nuxt/eslint": "^1.3.0",
+    "drizzle-kit": "^0.30.6",
     "eslint": "^9.24.0",
     "typescript": "^5.8.3",
     "wrangler": "^4.10.0",
