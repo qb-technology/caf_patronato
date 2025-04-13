@@ -36,13 +36,15 @@
 
 <template>
   <div :class="_ui.root({ class: [props.class, ui.root] })">
-    <slot name="header" />
+    <slot>
+      <slot name="header" />
 
-    <div :class="_ui.body({ class: ui.body })">
-      <slot />
-    </div>
+      <div :class="_ui.body({ class: ui.body })">
+        <slot name="body" />
+      </div>
 
-    <slot name="footer" />
+      <slot name="footer" />
+    </slot>
   </div>
 </template>
 

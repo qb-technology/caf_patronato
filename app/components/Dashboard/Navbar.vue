@@ -8,7 +8,7 @@
       left: 'flex items-center gap-1.5 min-w-0',
       icon: 'shrink-0 size-5 self-center me-1.5',
       title:
-        'flex items-center gap-1.5 font-semibold text-(--ui-text-highlighted) truncate',
+        'flex items-center gap-1.5 font-semibold text-(--ui-text-highlighted) truncate capitalize',
       center: 'hidden lg:flex',
       right: 'flex items-center shrink-0 gap-1.5',
       toggle: 'lg:hidden',

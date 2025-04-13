@@ -44,15 +44,15 @@
   });
 
   // Validate:
-  const isValidSidebarSize = computed(() => {
-    return Object.values(_SidebarSize.value).every(
-      (num) => typeof num === 'number' && num > 10 && num < 100,
-    );
-  });
+  // const isValidSidebarSize = computed(() => {
+  //   return Object.values(_SidebarSize.value).every(
+  //     (num) => typeof num === 'number' && num > 10 && num < 100,
+  //   );
+  // });
 
-  if (!isValidSidebarSize.value) {
-    console.warn('Sidebar size values must all be numbers between 10 and 100.');
-  }
+  // if (!isValidSidebarSize.value) {
+  //   console.warn('Sidebar size values must all be numbers between 10 and 100.');
+  // }
 
   const layoutStorage = useCookie<number[]>(props.storageKey, {
     default: () => [
